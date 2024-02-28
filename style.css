@@ -66,3 +66,8 @@ button:active {
     display: none;
 }
 
+img {
+
+    height: 300px;
+    margin: -100px;
+}
