@@ -1,0 +1,68 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+:root {
+    --dark: hsl(270, 40%, 5%);
+    --light: hsl(270, 20%, 95%);
+    --mid: hsl(270, 30%, 40%);
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+main {
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h4, .shiny-div, button {
+    margin: 10px 0px;
+}
+
+button {
+    background-color: var(--mid);
+    color: var(--light);
+    border: solid var(--light) 2px;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--light);
+    color: var(--mid);
+    border: solid var(--mid) 2px;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+.shiny-div {
+    height: 40vh;
+    width: 100%;
+    background-color: var(--mid);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hidden {
+    display: none;
+}
+
