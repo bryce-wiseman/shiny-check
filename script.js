@@ -1,3 +1,6 @@
+//this is a test
+
+
 const shinyDiv = document.getElementById('shiny-div')
 let shinyImg = document.getElementById('shiny-img')
 let shinyP = document.getElementById('shiny-statement')
